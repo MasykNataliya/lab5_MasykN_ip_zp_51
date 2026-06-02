@@ -14,10 +14,10 @@ const data = [
   { id: 3, values: [7, 8, 9] },
 ];
 
-let result = [];
+let result1 = [];
 
 for (const item of data) {
-  result = result.concat(item.values);
+  result1 = result1.concat(item.values);
 }
 
-console.log(result);
+console.log(result1);

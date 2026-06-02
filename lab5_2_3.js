@@ -5,12 +5,12 @@
 
 const numbers = [2, 4, 6, 8, 10];
 
-let result = true;
+let result2 = true;
 for (let num of numbers) {
   if (num % 2 !== 0) {
-    result = false;
+    result2 = false;
     break;
   }
 }
 
-console.log(result); // true
+console.log(result2); // true

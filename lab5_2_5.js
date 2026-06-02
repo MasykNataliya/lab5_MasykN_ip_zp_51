@@ -6,8 +6,8 @@
 
 const stringArray = ["banana", "Orange", "apple", "Pear"];
 
-const result = stringArray.sort((a, b) =>
+const result3 = stringArray.sort((a, b) =>
   a.toLowerCase().localeCompare(b.toLowerCase()),
 );
 
-console.log(result);
+console.log(result3);

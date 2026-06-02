@@ -70,7 +70,7 @@ class Calculator {
 // Приклад
 const calc = new Calculator();
 
-const result = calc
+const result4 = calc
   .number(10) // встановлюємо початкове значення 10
   .add(5) // додаємо 5 → 15
   .subtract(3) // віднімаємо 3 → 12
@@ -78,4 +78,4 @@ const result = calc
   .divide(2) // ділимо на 2 → 24
   .getResult(); // отримуємо результат
 
-console.log(result); // 24
+console.log(result4); // 24
